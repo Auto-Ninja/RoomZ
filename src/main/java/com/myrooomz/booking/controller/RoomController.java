@@ -1,5 +1,6 @@
 package com.myrooomz.booking.controller;
 
+import com.myrooomz.booking.exception.RoomNotFoundException;
 import com.myrooomz.booking.model.Room;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -25,6 +26,8 @@ public class RoomController {
                     content = @Content) })
     @GetMapping("/{id}")
     public Room FindRoom(int id) {
+        if(id>200)
+            throw new RoomNotFoundException("Not Room Found");
         System.out.println("Searching for Room for Id  " + id);
         Room room=new Room();
         room.setId(id);
