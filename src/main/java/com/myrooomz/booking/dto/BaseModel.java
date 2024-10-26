@@ -1,4 +1,4 @@
-package com.myrooomz.booking.model;
+package com.myrooomz.booking.dto;
 
 public class BaseModel {
 

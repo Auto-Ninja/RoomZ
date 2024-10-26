@@ -1,4 +1,4 @@
-package com.myrooomz.booking.model;
+package com.myrooomz.booking.dto;
 
 public class Room extends BaseModel{
     private Integer _floor;
