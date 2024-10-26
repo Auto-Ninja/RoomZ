@@ -11,7 +11,7 @@
 	<!--Packaging for Deployment -->
 	<packaging>war</packaging>
 	<groupId>com.myrooomz</groupId>
-	<artifactId>booking</artifactId>
+	<artifactId>myroomz</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>booking</name>
 	<description>Demo project for Spring Boot</description>
